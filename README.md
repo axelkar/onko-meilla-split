@@ -1,5 +1,5 @@
 # Tärkeää tietoa!
-Onko Meillä Split? vaihtaa ylläpitäjää, tämä repo on edelleen toiminnassa. 
+Onko Meillä Split? on vaihtanut ylläpitäjää, tämä repositorio on edelleen toiminnassa. 
 
 # Onko Meillä Split?
 > [onkomeillasplit.com](https://onkomeillasplit.com)
@@ -9,6 +9,8 @@ Nettisivu jolta näet Kulosaaren Yhteiskoulun Lukion **ruokailu aikataulun** ets
 Onko Meillä Split hakee myös koulun **ruokalistan**.
 > [ksyk-menu-scraper](https://github.com/smoutof/ksyk-menu-scraper) 
 ## Tekijät
+-  Leo Fabritius - Current maintainer
+
 -  [Akseli Siili](https://github.com/the-siili/) - Functionality (JavaScript)
 
 -  [Alvar Oras](https://github.com/smoutof) - Front-End + API
