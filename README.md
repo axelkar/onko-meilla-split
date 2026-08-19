@@ -1,3 +1,6 @@
+# Tärkeää tietoa!
+Onkom Meillä Split? vaihtaa ylläpitäjää, tämä repo on edelleen toiminnassa. 
+
 # Onko Meillä Split?
 > [onkomeillasplit.com](https://onkomeillasplit.com)
 
