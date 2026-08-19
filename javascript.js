@@ -169,9 +169,9 @@ function showResult() {
     return;
   }
 
-  if (splits.includes(courseSelect.value)) {
+  if (courseSelect.value && splits.includes(courseSelect.value)) {
     resultLbl.innerHTML = "SPLIT";
-  } else if (normals.includes(courseSelect.value)) {
+  } else if (courseSelect.value && normals.includes(courseSelect.value)) {
     resultLbl.innerHTML = "NORMAALI";
   } else {
     resultLbl.innerHTML = "?";
