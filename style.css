@@ -1,12 +1,12 @@
 /* Colors */
 
-:root{
-    --header-footer-color: #020f18; 
+:root {
+    --header-footer-color: #020f18;
     --text-color: #ffff;
     --border-color: #838383;
     --border-style: none;
 
-    --form-div-background: rgba(0, 0, 0, 0.1);;
+    --form-div-background: rgba(0, 0, 0, 0.1);
     --form-element-color: rgba(0, 0, 0, 0.3);
     --select-hover-color: black;
 
@@ -15,22 +15,25 @@
     --button-active-color: rgb(96, 77, 104);
 }
 
-
 /* Body */
 
 html {
     height: auto;
     min-height: 100%;
     overflow: hidden;
- }
+}
 
-body{
-    font-family: Clear Sans,Helvetica Neue,Arial,sans-serif;
+body {
+    font-family:
+        Clear Sans,
+        Helvetica Neue,
+        Arial,
+        sans-serif;
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-image: url(imgs/generic_art.png);
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
 }
 
 /* Website Header */
@@ -65,12 +68,11 @@ body{
     padding: 20px;
 
     background-color: var(--form-div-background);
-    
+
     border-style: var(--border-style);
     border-radius: 5px;
     border-color: var(--border-color);
 }
-
 
 .searchDivp {
     text-align: center;
@@ -91,7 +93,7 @@ body{
     margin: 0;
 }
 
-.ohjeTxt{
+.ohjeTxt {
     margin: 0;
     text-align: center;
     color: var(--text-color);
@@ -104,14 +106,14 @@ body{
     border-color: var(--border-color);
 }
 
-.flexwrap-justify{
+.flexwrap-justify {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.dayArrows{
+.dayArrows {
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -122,11 +124,11 @@ body{
     color: var(--text-color);
 }
 
-.dayArrows:hover{
+.dayArrows:hover {
     color: var(--button-hover-color);
 }
 
-.dayArrows:active{
+.dayArrows:active {
     color: rgb(91, 91, 253);
 }
 
@@ -138,11 +140,11 @@ body{
 
     background-color: var(--form-element-color);
     position: relative;
-    
+
     width: 200px;
     height: 75px;
 
-    cursor:pointer;
+    cursor: pointer;
 
     border-width: 2px;
     border-radius: 10px;
@@ -159,7 +161,7 @@ body{
     background-color: black;
 }
 
-.dayLabel{
+.dayLabel {
     text-align: center;
     color: var(--text-color);
     font-size: 16px;
@@ -176,7 +178,7 @@ body{
     width: 200px;
     height: 50px;
 
-    cursor:pointer;
+    cursor: pointer;
 
     border-width: 2px;
     border-radius: 50px;
@@ -191,16 +193,16 @@ body{
 
 .resultButton:active {
     background-color: var(--button-active-color);
-    transform: translateY(4px)
+    transform: translateY(4px);
 }
 
-.resultLabel{
+.resultLabel {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
     color: var(--text-color);
 }
 
-.ruoka-kortti{
+.ruoka-kortti {
     line-height: 0.4;
 }
