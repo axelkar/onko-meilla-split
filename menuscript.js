@@ -88,7 +88,7 @@ function renderMealPackage(packageName, meals, parentElem) {
   mealsElem.classList.add("accordion", "accordion-flush");
 
   meals.forEach(([mealName, meal]) => {
-    console.log("Meal:", mealName, meal);
+    console.debug("Meal:", mealName, meal);
     if (meal != null) {
       renderMeal(
         mealName,
@@ -133,7 +133,7 @@ function renderMeal(name, diet, macroHtml, parentElem, ingredients) {
     <div class="card-header text-start container bg-body-secondary">
       <div class="row">
         <div class="col text-start">
-          <b>Ravintosisältö</b> 
+          <b>Ravintosisältö</b>
         </div>
         <div class="col text-end">
           per 100g
@@ -192,8 +192,8 @@ function renderMeal(name, diet, macroHtml, parentElem, ingredients) {
           </div>
         </div>
       </div>
-    
-      
+
+
     </div>
   </div>`;
 
@@ -215,7 +215,7 @@ function renderMacros(macros) {
     }
   };
 
-  console.log("Macros:", macros);
+  console.debug("Macros:", macros);
   if (macros == null) {
     return "";
   }
@@ -267,12 +267,8 @@ function retrieveWeek() {
   /** @type {MenuApiData} */
   const parsedData = JSON.parse(publicData);
   var week = parsedData["Week"];
-  console.log("Current week:", week);
+  console.debug("Current week:", week);
   return week;
-}
-
-function test() {
-  alert("bruh");
 }
 
 function openNextDay() {
